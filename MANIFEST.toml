@@ -1,0 +1,2 @@
+[Hosts.pdm1]
+components = ["caddy"]

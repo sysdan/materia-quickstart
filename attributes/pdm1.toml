@@ -1,0 +1,2 @@
+[components.caddy]
+localWeb = "/srv/www"

@@ -1,0 +1,5 @@
+[global]
+containerTag = "stable"
+
+[components.caddy]
+containerTag = "latest" 
