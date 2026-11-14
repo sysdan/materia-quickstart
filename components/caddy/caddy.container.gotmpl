@@ -9,6 +9,7 @@ Volume=caddy-data.volume:/data
 Volume=caddy-config.volume:/config
 Volume={{ m_dataDir "caddy" }}/conf:/etc/caddy:Z
 
+{{ snippet "autoUpdate" "registry" }}
 
 # local web data
 {{- if ( exists "localWeb" )}}
